@@ -197,10 +197,10 @@ void paperSoccer::messageDialogBox (GtkWindow *parent, char* title, char *messag
 void paperSoccer::showDialogBox(GtkWindow* window, int win){
 	if(win == 0) return;
 	if(win == 1){
-		messageDialogBox(window, "Paper soccer", "Player 1 won");
+		messageDialogBox(window, (char*)"Paper soccer", (char*)"Player 1 won");
 	}
 	else {
-		messageDialogBox(window, "Paper soccer", "Player 2 won");
+		messageDialogBox(window, (char*)"Paper soccer", (char*)"Player 2 won");
 	}
 }
 

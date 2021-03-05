@@ -9,7 +9,6 @@
 
 int main(int argc, char *argv[])
 {
-    paperSoccer paperSoccerGame;
 	// init graphics
     paperSoccer::init(argc, argv);
     // create GUI
